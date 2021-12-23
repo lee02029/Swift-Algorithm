@@ -25,6 +25,11 @@
 /* Begin PBXFileReference section */
 		F6EAE0772772CD8900D51C56 /* Swift_알고리즘 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Swift_알고리즘"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6EAE07A2772CD8900D51C56 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F6EAE0842772D02F00D51C56 /* 1330.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1330.swift; sourceTree = "<group>"; };
+		F6EAE0862772D23800D51C56 /* 9498.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 9498.swift; sourceTree = "<group>"; };
+		F6EAE0882772D35800D51C56 /* 2753.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2753.swift; sourceTree = "<group>"; };
+		F6EAE08B2772D52800D51C56 /* 2741.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2741.swift; sourceTree = "<group>"; };
+		F6EAE08D2772D6F100D51C56 /* 11021.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11021.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +62,32 @@
 		F6EAE0792772CD8900D51C56 /* Swift_알고리즘 */ = {
 			isa = PBXGroup;
 			children = (
+				F6EAE08A2772D44C00D51C56 /* 반복문 */,
+				F6EAE0832772D02100D51C56 /* If문 */,
 				F6EAE07A2772CD8900D51C56 /* main.swift */,
 			);
 			path = "Swift_알고리즘";
+			sourceTree = "<group>";
+		};
+		F6EAE0832772D02100D51C56 /* If문 */ = {
+			isa = PBXGroup;
+			children = (
+				F6EAE0842772D02F00D51C56 /* 1330.swift */,
+				F6EAE0862772D23800D51C56 /* 9498.swift */,
+				F6EAE0882772D35800D51C56 /* 2753.swift */,
+			);
+			name = "If문";
+			path = "If문";
+			sourceTree = "<group>";
+		};
+		F6EAE08A2772D44C00D51C56 /* 반복문 */ = {
+			isa = PBXGroup;
+			children = (
+				F6EAE08B2772D52800D51C56 /* 2741.swift */,
+				F6EAE08D2772D6F100D51C56 /* 11021.swift */,
+			);
+			name = "반복문";
+			path = "For문";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
