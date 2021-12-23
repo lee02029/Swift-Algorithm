@@ -7,12 +7,3 @@
 
 import Foundation
 
-let input = Int(readLine()!)!
-
-for i in 1...input {
-    let inputArr = readLine()!.split(separator:" ")
-    let A = Int(inputArr[0])!
-    let B = Int(inputArr[1])!
-
-    print("Case #\(i): \(A+B)")
-}
