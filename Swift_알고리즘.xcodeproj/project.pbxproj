@@ -23,6 +23,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F6116F77277864400080F93F /* 11729.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11729.swift; sourceTree = "<group>"; };
+		F6116F7A27789F420080F93F /* 10828.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10828.swift; sourceTree = "<group>"; };
+		F6116F7D2778CCFE0080F93F /* 2022 Google.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2022 Google.swift"; sourceTree = "<group>"; };
 		F6B9ED882776AC4D00104985 /* 11720.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11720.swift; sourceTree = "<group>"; };
 		F6B9ED8A2776AE0C00104985 /* 2675.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2675.swift; sourceTree = "<group>"; };
 		F6B9ED8C2776BA3100104985 /* 1157.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1157.swift; sourceTree = "<group>"; };
@@ -59,11 +62,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F6116F79277865670080F93F /* 스택 */ = {
+			isa = PBXGroup;
+			children = (
+				F6116F7A27789F420080F93F /* 10828.swift */,
+			);
+			name = "스택";
+			path = "스택";
+			sourceTree = "<group>";
+		};
+		F6116F7C2778CCE30080F93F /* google ios interview */ = {
+			isa = PBXGroup;
+			children = (
+				F6116F7D2778CCFE0080F93F /* 2022 Google.swift */,
+			);
+			path = "google ios interview";
+			sourceTree = "<group>";
+		};
 		F6B9ED942776C32A00104985 /* 재귀 */ = {
 			isa = PBXGroup;
 			children = (
 				F6B9ED952776CFF800104985 /* 10872.swift */,
 				F6B9ED972776D34700104985 /* 10870.swift */,
+				F6116F77277864400080F93F /* 11729.swift */,
 			);
 			name = "재귀";
 			path = "재귀";
@@ -124,6 +145,8 @@
 		F6EAE0792772CD8900D51C56 /* Swift_알고리즘 */ = {
 			isa = PBXGroup;
 			children = (
+				F6116F7C2778CCE30080F93F /* google ios interview */,
+				F6116F79277865670080F93F /* 스택 */,
 				F6B9ED942776C32A00104985 /* 재귀 */,
 				F6E0F9722774AFF400CD29B7 /* 문자열 */,
 				F6E0F96927748F3800CD29B7 /* 배열 */,
