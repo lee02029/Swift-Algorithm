@@ -11,11 +11,11 @@ let N = Int(readLine()!)!
 
 func hanoi(_ n: Int,_ from: Int,_ to:Int,_ aux:Int){
     if n == 1 {
-        print("\(from) -> \(to)")
+        print("\(from) \(to)")
     }
     else{
         hanoi(n-1,from,aux,to)
-        print("\(from) -> \(to)")
+        print("\(from) \(to)")
         hanoi(n-1,aux,to,from)
     }
 }

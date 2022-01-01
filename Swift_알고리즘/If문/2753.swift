@@ -13,7 +13,7 @@ let A = Int(inputArr[0])!
 if A % 4 == 0 {
     print("1")
 }
-else if A % 100 != 0 && A % 400 == 0{
+else if A % 100 != 0 || A % 400 == 0{
     print("1")
 }
 else{

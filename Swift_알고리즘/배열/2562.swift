@@ -14,7 +14,6 @@ for _ in stride(from: 0, to: 9, by: 1){
     numbers.append(Int(readLine()!)!)
 }
 
-
 print(numbers.max()!)
 print(numbers.min()!)
 print("실행 시간 : \(-currentTime.timeIntervalSinceNow)")

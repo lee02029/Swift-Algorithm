@@ -6,6 +6,7 @@
 //
 
 import Foundation
+let n = Int(readLine()!)!
 
 var count = 1
 var stack: [Int] = []
