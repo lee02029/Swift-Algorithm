@@ -34,6 +34,15 @@
 		F6116F7A27789F420080F93F /* 10828.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10828.swift; sourceTree = "<group>"; };
 		F6116F7D2778CCFE0080F93F /* 2022 Google.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2022 Google.swift"; sourceTree = "<group>"; };
 		F6487442277A531200AB6588 /* 2164.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2164.swift; sourceTree = "<group>"; };
+		F67FB9A52784165F00584710 /* 1427.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1427.swift; sourceTree = "<group>"; };
+		F67FB9A727841A7300584710 /* 11650.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11650.swift; sourceTree = "<group>"; };
+		F67FB9A927841B8100584710 /* 11651.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11651.swift; sourceTree = "<group>"; };
+		F67FB9AB27841D0B00584710 /* 1181.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1181.swift; sourceTree = "<group>"; };
+		F67FB9AD2784B27200584710 /* 2739.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2739.swift; sourceTree = "<group>"; };
+		F67FB9AF2784B47F00584710 /* 10950.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10950.swift; sourceTree = "<group>"; };
+		F67FB9B12784B88600584710 /* 8393.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 8393.swift; sourceTree = "<group>"; };
+		F67FB9B32784B99F00584710 /* 15552.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15552.swift; sourceTree = "<group>"; };
+		F67FB9B52784BEB400584710 /* 10814.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10814.swift; sourceTree = "<group>"; };
 		F6A290B62781340200B97DC0 /* Swift_basic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_basic.swift; sourceTree = "<group>"; };
 		F6B9ED882776AC4D00104985 /* 11720.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11720.swift; sourceTree = "<group>"; };
 		F6B9ED8A2776AE0C00104985 /* 2675.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2675.swift; sourceTree = "<group>"; };
@@ -87,6 +96,11 @@
 				F60AD2132780854C000339C1 /* 2750.swift */,
 				F60AD21527809440000339C1 /* 2108.swift */,
 				F60AD21727809463000339C1 /* 2751.swift */,
+				F67FB9A52784165F00584710 /* 1427.swift */,
+				F67FB9A727841A7300584710 /* 11650.swift */,
+				F67FB9A927841B8100584710 /* 11651.swift */,
+				F67FB9AB27841D0B00584710 /* 1181.swift */,
+				F67FB9B52784BEB400584710 /* 10814.swift */,
 			);
 			name = "정렬";
 			path = "정렬";
@@ -221,6 +235,10 @@
 				F6EAE08B2772D52800D51C56 /* 2741.swift */,
 				F6EAE08D2772D6F100D51C56 /* 11021.swift */,
 				F6E0F96227746CF100CD29B7 /* 2439.swift */,
+				F67FB9AD2784B27200584710 /* 2739.swift */,
+				F67FB9AF2784B47F00584710 /* 10950.swift */,
+				F67FB9B12784B88600584710 /* 8393.swift */,
+				F67FB9B32784B99F00584710 /* 15552.swift */,
 			);
 			name = "반복문";
 			path = "For문";
