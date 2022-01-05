@@ -163,3 +163,19 @@ sqrt(4.0) // 2.0
 //Double형 입력받아 Double형 반환
 pow(2.0,3.0) // 8.0 //2의 3제곱
 
+//map,filter,sum
+
+let numArray = [1,3,5,7,9]
+// let multiArray = numArray.map{$0*2}
+var multiArray = numArray.map({(number:Int) -> Int in return number*2})
+print(multiArray)
+
+let stringArray = ["가수","대통령","개발자","선생님","의사"]
+//let threeCountArray = stringArray.filter{$0.count == 3}
+let threeCountArray = stringArray.filter({(value:String)->Bool in return value.count == 3})
+print(threeCountArray)
+
+let numberArray = [1,2,3,4,5,6,7,8,9,10]
+// let sum = numberArray.reduce(0){$0+$1}
+let sum = numberArray.reduce(0,{(first:Int, second:Int) -> Int in return first + second})
+print(sum)

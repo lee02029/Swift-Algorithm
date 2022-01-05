@@ -27,6 +27,7 @@
 		F603C7B027796D2B007370E3 /* 9012.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 9012.swift; sourceTree = "<group>"; };
 		F603C7B22779B39D007370E3 /* 1874.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1874.swift; sourceTree = "<group>"; };
 		F603C7B52779BAA1007370E3 /* 18258.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 18258.swift; sourceTree = "<group>"; };
+		F605F6F0278589EC0002F6D1 /* 1920.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1920.swift; sourceTree = "<group>"; };
 		F60AD2132780854C000339C1 /* 2750.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2750.swift; sourceTree = "<group>"; };
 		F60AD21527809440000339C1 /* 2108.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2108.swift; sourceTree = "<group>"; };
 		F60AD21727809463000339C1 /* 2751.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2751.swift; sourceTree = "<group>"; };
@@ -88,6 +89,15 @@
 			);
 			name = "큐,덱";
 			path = "뮤,덱";
+			sourceTree = "<group>";
+		};
+		F605F6EF278589DD0002F6D1 /* 이진트리 */ = {
+			isa = PBXGroup;
+			children = (
+				F605F6F0278589EC0002F6D1 /* 1920.swift */,
+			);
+			name = "이진트리";
+			path = "이진트리";
 			sourceTree = "<group>";
 		};
 		F60AD21227808534000339C1 /* 정렬 */ = {
@@ -201,6 +211,7 @@
 		F6EAE0792772CD8900D51C56 /* Swift_알고리즘 */ = {
 			isa = PBXGroup;
 			children = (
+				F605F6EF278589DD0002F6D1 /* 이진트리 */,
 				F6A290B5278133CC00B97DC0 /* Swift 정리 */,
 				F60AD21227808534000339C1 /* 정렬 */,
 				F603C7B42779B3D1007370E3 /* 큐,덱 */,
