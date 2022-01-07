@@ -53,6 +53,9 @@
 		F6B9ED922776C19600104985 /* 1316.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1316.swift; sourceTree = "<group>"; };
 		F6B9ED952776CFF800104985 /* 10872.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10872.swift; sourceTree = "<group>"; };
 		F6B9ED972776D34700104985 /* 10870.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10870.swift; sourceTree = "<group>"; };
+		F6E0CC20278607CD001BA783 /* 10816.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10816.swift; sourceTree = "<group>"; };
+		F6E0CC2227862215001BA783 /* 1654.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1654.swift; sourceTree = "<group>"; };
+		F6E0CC2427862D7B001BA783 /* 2805.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2805.swift; sourceTree = "<group>"; };
 		F6E0F96027746AE600CD29B7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		F6E0F96227746CF100CD29B7 /* 2439.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2439.swift; sourceTree = "<group>"; };
 		F6E0F96527747CE800CD29B7 /* 10952.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10952.swift; sourceTree = "<group>"; };
@@ -61,6 +64,7 @@
 		F6E0F96C2774972D00CD29B7 /* 2562.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2562.swift; sourceTree = "<group>"; };
 		F6E0F96E27749D8800CD29B7 /* 3052.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3052.swift; sourceTree = "<group>"; };
 		F6E0F9702774AFA300CD29B7 /* 8958.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 8958.swift; sourceTree = "<group>"; };
+		F6EA1E7A27883BA000BB8070 /* 2606.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2606.swift; sourceTree = "<group>"; };
 		F6EAE0772772CD8900D51C56 /* Swift_알고리즘 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Swift_알고리즘"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6EAE07A2772CD8900D51C56 /* 2438.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2438.swift; sourceTree = "<group>"; };
 		F6EAE0842772D02F00D51C56 /* 1330.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1330.swift; sourceTree = "<group>"; };
@@ -68,6 +72,7 @@
 		F6EAE0882772D35800D51C56 /* 2753.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2753.swift; sourceTree = "<group>"; };
 		F6EAE08B2772D52800D51C56 /* 2741.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2741.swift; sourceTree = "<group>"; };
 		F6EAE08D2772D6F100D51C56 /* 11021.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11021.swift; sourceTree = "<group>"; };
+		F6F7AD5927870EAB00DCC046 /* 1260.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1260.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +100,9 @@
 			isa = PBXGroup;
 			children = (
 				F605F6F0278589EC0002F6D1 /* 1920.swift */,
+				F6E0CC20278607CD001BA783 /* 10816.swift */,
+				F6E0CC2227862215001BA783 /* 1654.swift */,
+				F6E0CC2427862D7B001BA783 /* 2805.swift */,
 			);
 			name = "이진트리";
 			path = "이진트리";
@@ -211,6 +219,7 @@
 		F6EAE0792772CD8900D51C56 /* Swift_알고리즘 */ = {
 			isa = PBXGroup;
 			children = (
+				F6F7AD5827870A3000DCC046 /* DFS,BFS */,
 				F605F6EF278589DD0002F6D1 /* 이진트리 */,
 				F6A290B5278133CC00B97DC0 /* Swift 정리 */,
 				F60AD21227808534000339C1 /* 정렬 */,
@@ -253,6 +262,15 @@
 			);
 			name = "반복문";
 			path = "For문";
+			sourceTree = "<group>";
+		};
+		F6F7AD5827870A3000DCC046 /* DFS,BFS */ = {
+			isa = PBXGroup;
+			children = (
+				F6F7AD5927870EAB00DCC046 /* 1260.swift */,
+				F6EA1E7A27883BA000BB8070 /* 2606.swift */,
+			);
+			path = "DFS,BFS";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
