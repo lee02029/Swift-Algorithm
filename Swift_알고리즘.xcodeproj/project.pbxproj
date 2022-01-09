@@ -39,6 +39,7 @@
 		F61BADD62789B31B003C6FBB /* 7576.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 7576.swift; sourceTree = "<group>"; };
 		F61BADD82789B3A8003C6FBB /* 2178.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2178.swift; sourceTree = "<group>"; };
 		F61BADDA2789B40E003C6FBB /* 1697.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1697.swift; sourceTree = "<group>"; };
+		F61BADDC2789B7D8003C6FBB /* 1012.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1012.swift; sourceTree = "<group>"; };
 		F6487442277A531200AB6588 /* 2164.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2164.swift; sourceTree = "<group>"; };
 		F67FB9A52784165F00584710 /* 1427.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1427.swift; sourceTree = "<group>"; };
 		F67FB9A727841A7300584710 /* 11650.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11650.swift; sourceTree = "<group>"; };
@@ -225,11 +226,11 @@
 			isa = PBXGroup;
 			children = (
 				F6F7AD5827870A3000DCC046 /* DFS,BFS */,
+				F6116F7C2778CCE30080F93F /* google ios interview */,
 				F605F6EF278589DD0002F6D1 /* 이진트리 */,
 				F6A290B5278133CC00B97DC0 /* Swift 정리 */,
 				F60AD21227808534000339C1 /* 정렬 */,
 				F603C7B42779B3D1007370E3 /* 큐,덱 */,
-				F6116F7C2778CCE30080F93F /* google ios interview */,
 				F6116F79277865670080F93F /* 스택 */,
 				F6B9ED942776C32A00104985 /* 재귀 */,
 				F6E0F9722774AFF400CD29B7 /* 문자열 */,
@@ -279,6 +280,7 @@
 				F61BADD62789B31B003C6FBB /* 7576.swift */,
 				F61BADD82789B3A8003C6FBB /* 2178.swift */,
 				F61BADDA2789B40E003C6FBB /* 1697.swift */,
+				F61BADDC2789B7D8003C6FBB /* 1012.swift */,
 			);
 			path = "DFS,BFS";
 			sourceTree = "<group>";
