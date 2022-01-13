@@ -41,6 +41,7 @@
 		F61BADDA2789B40E003C6FBB /* 1697.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1697.swift; sourceTree = "<group>"; };
 		F61BADDC2789B7D8003C6FBB /* 1012.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1012.swift; sourceTree = "<group>"; };
 		F6487442277A531200AB6588 /* 2164.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2164.swift; sourceTree = "<group>"; };
+		F6739EA227906B780028B888 /* 18870.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 18870.swift; sourceTree = "<group>"; };
 		F67FB9A52784165F00584710 /* 1427.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1427.swift; sourceTree = "<group>"; };
 		F67FB9A727841A7300584710 /* 11650.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11650.swift; sourceTree = "<group>"; };
 		F67FB9A927841B8100584710 /* 11651.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11651.swift; sourceTree = "<group>"; };
@@ -132,6 +133,7 @@
 				F67FB9A927841B8100584710 /* 11651.swift */,
 				F67FB9AB27841D0B00584710 /* 1181.swift */,
 				F67FB9B52784BEB400584710 /* 10814.swift */,
+				F6739EA227906B780028B888 /* 18870.swift */,
 			);
 			name = "정렬";
 			path = "정렬";
