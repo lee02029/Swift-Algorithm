@@ -182,6 +182,7 @@
 		F6D066B3278C0C0B00ED3E54 /* Swift_Base */ = {
 			isa = PBXGroup;
 			children = (
+				F6F830E72792B51D00505ADC /* Stack_Queue */,
 				F6D066B4278C0C6200ED3E54 /* Big0 */,
 				F6D066B7278C0DF100ED3E54 /* Array */,
 				F6D066BE278C1A8400ED3E54 /* Linked list */,
@@ -331,6 +332,13 @@
 				F61BADDC2789B7D8003C6FBB /* 1012.swift */,
 			);
 			path = "DFS,BFS";
+			sourceTree = "<group>";
+		};
+		F6F830E72792B51D00505ADC /* Stack_Queue */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Stack_Queue;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
