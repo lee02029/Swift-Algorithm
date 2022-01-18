@@ -7,3 +7,12 @@
 
 import Foundation
 
+func doSomething(_ callback: (String) -> ()) {
+    callback("sodeul")
+    callback("sodeul")
+    callback("sodeul")
+}
+
+doSomething {message in
+    print("Success!" + message)
+}
