@@ -51,6 +51,6 @@ for x in 0..<n {
     }
 }
 
-bfs() // 함수 실행
+bfs() 
 
 empty == 0 ? print(0) : (empty == count ? print(box.flatMap({$0}).max()!-1) : print(-1))
