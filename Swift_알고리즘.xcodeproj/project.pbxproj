@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F67EA2492798046000C3D470 /* FibanocciWithMemoization.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67EA2482798046000C3D470 /* FibanocciWithMemoization.swift */; };
 		F6E0F96127746AE600CD29B7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E0F96027746AE600CD29B7 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +44,10 @@
 		F62EA0302796CC860096FE8E /* 1300.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1300.swift; sourceTree = "<group>"; };
 		F6487442277A531200AB6588 /* 2164.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2164.swift; sourceTree = "<group>"; };
 		F6739EA227906B780028B888 /* 18870.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 18870.swift; sourceTree = "<group>"; };
+		F67EA2402797E67900C3D470 /* Q1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q1.swift; sourceTree = "<group>"; };
+		F67EA2422797EA5000C3D470 /* Q2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q2.swift; sourceTree = "<group>"; };
+		F67EA2452797FCAA00C3D470 /* BSTManual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSTManual.swift; sourceTree = "<group>"; };
+		F67EA2482798046000C3D470 /* FibanocciWithMemoization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibanocciWithMemoization.swift; sourceTree = "<group>"; };
 		F67FB9A52784165F00584710 /* 1427.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1427.swift; sourceTree = "<group>"; };
 		F67FB9A727841A7300584710 /* 11650.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11650.swift; sourceTree = "<group>"; };
 		F67FB9A927841B8100584710 /* 11651.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11651.swift; sourceTree = "<group>"; };
@@ -168,6 +173,22 @@
 			path = DFS_BFS;
 			sourceTree = "<group>";
 		};
+		F67EA2442797FC9500C3D470 /* BST */ = {
+			isa = PBXGroup;
+			children = (
+				F67EA2452797FCAA00C3D470 /* BSTManual.swift */,
+			);
+			path = BST;
+			sourceTree = "<group>";
+		};
+		F67EA2472798043200C3D470 /* memorization */ = {
+			isa = PBXGroup;
+			children = (
+				F67EA2482798046000C3D470 /* FibanocciWithMemoization.swift */,
+			);
+			path = memorization;
+			sourceTree = "<group>";
+		};
 		F6A290B5278133CC00B97DC0 /* Swift 정리 */ = {
 			isa = PBXGroup;
 			children = (
@@ -191,8 +212,10 @@
 		F6D066B3278C0C0B00ED3E54 /* Swift_Base */ = {
 			isa = PBXGroup;
 			children = (
+				F67EA2472798043200C3D470 /* memorization */,
+				F67EA2442797FC9500C3D470 /* BST */,
 				F62EA02F2796CC160096FE8E /* DFS_BFS */,
-				F6F830E72792B51D00505ADC /* Stack_Queue */,
+				F6F830E72792B51D00505ADC /* StackQueue */,
 				F6D066B4278C0C6200ED3E54 /* Big0 */,
 				F6D066B7278C0DF100ED3E54 /* Array */,
 				F6D066BE278C1A8400ED3E54 /* Linked list */,
@@ -344,11 +367,13 @@
 			path = "DFS,BFS";
 			sourceTree = "<group>";
 		};
-		F6F830E72792B51D00505ADC /* Stack_Queue */ = {
+		F6F830E72792B51D00505ADC /* StackQueue */ = {
 			isa = PBXGroup;
 			children = (
+				F67EA2402797E67900C3D470 /* Q1.swift */,
+				F67EA2422797EA5000C3D470 /* Q2.swift */,
 			);
-			path = Stack_Queue;
+			path = StackQueue;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -410,6 +435,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6E0F96127746AE600CD29B7 /* main.swift in Sources */,
+				F67EA2492798046000C3D470 /* FibanocciWithMemoization.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
