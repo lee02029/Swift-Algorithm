@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F67EA2492798046000C3D470 /* FibanocciWithMemoization.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67EA2482798046000C3D470 /* FibanocciWithMemoization.swift */; };
 		F6E0F96127746AE600CD29B7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E0F96027746AE600CD29B7 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -73,6 +72,7 @@
 		F6D066BF278C224400ED3E54 /* Linked List Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Linked List Sample.swift"; sourceTree = "<group>"; };
 		F6D066C1278C22A400ED3E54 /* Q1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q1.swift; sourceTree = "<group>"; };
 		F6D066C3278C242B00ED3E54 /* Q2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q2.swift; sourceTree = "<group>"; };
+		F6DC329427AD1FD400F4D76D /* 1253.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1253.swift; sourceTree = "<group>"; };
 		F6E0CC20278607CD001BA783 /* 10816.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10816.swift; sourceTree = "<group>"; };
 		F6E0CC2227862215001BA783 /* 1654.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1654.swift; sourceTree = "<group>"; };
 		F6E0CC2427862D7B001BA783 /* 2805.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2805.swift; sourceTree = "<group>"; };
@@ -251,6 +251,15 @@
 			path = "Linked list";
 			sourceTree = "<group>";
 		};
+		F6DC329327AD1FB700F4D76D /* 투포인터 */ = {
+			isa = PBXGroup;
+			children = (
+				F6DC329427AD1FD400F4D76D /* 1253.swift */,
+			);
+			name = "투포인터";
+			path = "투포인터";
+			sourceTree = "<group>";
+		};
 		F6E0F96427747CBD00CD29B7 /* While문 */ = {
 			isa = PBXGroup;
 			children = (
@@ -306,6 +315,7 @@
 		F6EAE0792772CD8900D51C56 /* Swift_알고리즘 */ = {
 			isa = PBXGroup;
 			children = (
+				F6DC329327AD1FB700F4D76D /* 투포인터 */,
 				F6D066B3278C0C0B00ED3E54 /* Swift_Base */,
 				F6F7AD5827870A3000DCC046 /* DFS,BFS */,
 				F6116F7C2778CCE30080F93F /* google ios interview */,
@@ -435,7 +445,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6E0F96127746AE600CD29B7 /* main.swift in Sources */,
-				F67EA2492798046000C3D470 /* FibanocciWithMemoization.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
