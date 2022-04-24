@@ -7,6 +7,19 @@
 
 import Foundation
 
-func solution(_ lottos:[Int], _ win_nums:[Int]) -> [Int] {
+let input = readLine()!
+let inputarr = input.split(separator:" ")
+let A = Int(inputarr[0])!
+let B = Int(inputarr[1])!
+
+if A > B{
+    print(">")
+}
     
+else if A < B{
+    print("<")
+}
+    
+else if A == B{
+    print("==")
 }
